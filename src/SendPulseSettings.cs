@@ -1,4 +1,4 @@
-namespace PlusUltra.SendPulse
+namespace PlusUltra.SendPulse.ApiClient
 {
     public class SendPulseSettings
     {

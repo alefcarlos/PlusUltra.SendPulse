@@ -1,10 +1,10 @@
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using PlusUltra.SendPulse.ViewModels;
+using PlusUltra.SendPulse.ApiClient.ViewModels;
 using Refit;
 
-namespace PlusUltra.SendPulse.Services
+namespace PlusUltra.SendPulse.ApiClient.Services
 {
     public class SendPulseEmailServices
     {

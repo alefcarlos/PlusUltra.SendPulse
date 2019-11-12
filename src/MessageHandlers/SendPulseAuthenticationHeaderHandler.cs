@@ -3,9 +3,9 @@ using System.Net.Http.Headers;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
-using PlusUltra.SendPulse.ViewModels;
+using PlusUltra.SendPulse.ApiClient.ViewModels;
 
-namespace PlusUltra.SendPulse.MessageHandlers
+namespace PlusUltra.SendPulse.ApiClient.MessageHandlers
 {
     internal class SendPulseAuthenticationHeaderHandler : DelegatingHandler
     {

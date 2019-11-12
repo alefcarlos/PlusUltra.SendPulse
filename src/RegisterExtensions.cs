@@ -3,10 +3,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using PlusUltra.ApiClient;
-using PlusUltra.SendPulse.MessageHandlers;
-using PlusUltra.SendPulse.Services;
+using PlusUltra.SendPulse.ApiClient.MessageHandlers;
+using PlusUltra.SendPulse.ApiClient.Services;
 
-namespace PlusUltra.SendPulse
+namespace PlusUltra.SendPulse.ApiClient
 {
     public static class RegisterExtensions
     {

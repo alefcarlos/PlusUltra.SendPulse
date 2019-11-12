@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace PlusUltra.SendPulse.ViewModels
+namespace PlusUltra.SendPulse.ApiClient.ViewModels
 {
     public class Template
     {

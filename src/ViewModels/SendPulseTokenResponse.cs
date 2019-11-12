@@ -1,4 +1,4 @@
-namespace PlusUltra.SendPulse.ViewModels
+namespace PlusUltra.SendPulse.ApiClient.ViewModels
 {
     public class SendPulseTokenResponse
     {
