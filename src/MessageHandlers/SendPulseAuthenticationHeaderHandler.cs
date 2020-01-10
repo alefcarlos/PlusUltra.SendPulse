@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Options;
 using PlusUltra.DistributedCache;
+using PlusUltra.SendPulse.ApiClient.ViewModels;
 
 namespace PlusUltra.SendPulse.ApiClient.MessageHandlers
 {
@@ -41,7 +42,6 @@ namespace PlusUltra.SendPulse.ApiClient.MessageHandlers
                 token = await authClient.LoginAsync(form);
                 await cache.SetObjectAsync(CACHE_KEY, token, TimeSpan.FromSeconds(token.expires_in - 60 * 5));
             }
-
 
             request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token.access_token);
 
