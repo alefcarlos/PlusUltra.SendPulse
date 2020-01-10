@@ -1,8 +1,8 @@
 using System.Threading.Tasks;
-using PlusUltra.SendPulse.ViewModels;
+using PlusUltra.SendPulse.ApiClient.ViewModels;
 using Refit;
 
-namespace PlusUltra.SendPulse
+namespace PlusUltra.SendPulse.ApiClient
 {
     public interface ISendPulseSMTPClient
     {

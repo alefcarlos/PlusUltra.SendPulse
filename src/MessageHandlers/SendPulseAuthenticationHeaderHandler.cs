@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Options;
 using PlusUltra.DistributedCache;
-using PlusUltra.SendPulse.ViewModels;
 
-namespace PlusUltra.SendPulse.MessageHandlers
+namespace PlusUltra.SendPulse.ApiClient.MessageHandlers
 {
     internal class SendPulseAuthenticationHeaderHandler : DelegatingHandler
     {
