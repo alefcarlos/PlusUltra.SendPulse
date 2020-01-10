@@ -62,9 +62,9 @@ namespace PlusUltra.SendPulse.ViewModels
             };
         }
 
-        public static SendEmailRequest CreateTemplateEmail(Address from, Address to, string subject, int templateId, Dictionary<string, string> parameters)
+        public static SendEmailRequest CreateTemplateEmail(Address from, Address to, string subject, int templateId, Dictionary<string, string> variables)
         {
-            var template = new Template(templateId, parameters);
+            var template = new Template(templateId, variables);
 
             var email = new Email(subject,
                     template,
